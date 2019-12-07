@@ -11,13 +11,4 @@ sudo apt-get -y install php7.4-cli php7.4
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 sudo chmod -R 777 ~/.composer
-composer global require cpriego/valet-linux
 sudo apt-get -y install network-manager libnss3-tools jq xsel
-test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install
-
-
-
-
-
-
-

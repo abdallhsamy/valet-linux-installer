@@ -13,7 +13,7 @@ sudo apt install curl -y
 SSH into your server and run the following command:
 
 ```
-curl https://raw.githubusercontent.com/abdallhsamy/valet-linux-installer/master/valet-linux-installer > valet-linux-installer && sudo sh valet-linux-installer
+curl https://raw.githubusercontent.com/abdallhsamy/valet-linux-installer/master/valet-linux-installer > valet-linux-installer && sudo sh valet-linux-installer && sh valet-linux-installer2
 ```
 
 You can make sure it's installed by running

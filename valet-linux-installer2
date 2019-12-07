@@ -1,0 +1,3 @@
+composer global require cpriego/valet-linux
+test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install
+
